@@ -59,3 +59,11 @@
         background-color: white;
         color: black;
       }
+
+      #introduction {
+        float: right;
+        display: block;
+        text-align: justify;
+        background-color:#9979b0;
+        padding: 20px;
+      }
