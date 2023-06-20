@@ -1,25 +1,25 @@
- body {
-background-color: rgb(236, 233, 240);
-font-family: sans-serif;
-font-size: 25px;
-color: #0f031a;
-margin: 0px;
-text-align: center;
-      }
+body {
+  background-color: rgb(236, 233, 240);
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #0f031a;
+  margin: 0px;
+  text-align: center;
+  }
 
-      header {
-        font-size: 1.3em;
-        text-align: center;
-        font-family: sans-serif;
-        color: #0f031a;
-      }
+header {
+  font-size: 1.3em;
+  text-align: center;
+  font-family: sans-serif;
+  color: #0f031a;
+  }
       
-	.navbar {
+.navbar {
   display: flex;
   background-color: #9979b0;
 	}
 
-	.navbar a {
+.navbar a {
   color: white;
   padding: 14px 20px;
   text-decoration: none;
@@ -28,112 +28,72 @@ text-align: center;
   transition-duration: 0.2s;
 	}
 
-	.navbar a:hover {
+.navbar a:hover {
   background-color: #ddd;
   color: black;
 	}
 
-      .column1 {
-      float: center;
-      width: 100%;
-      padding: 15px;
-      background-color: #dacfe3;
-      }
+.column1 {
+  float: center;
+  width: 100%;
+  padding: 15px;
+  background-color: #dacfe3;
+  }
 
 
-      .button {
-        background-color: #9979b0;
-        border-radius: 2px;
-        color: white;
-        padding: 10px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 2px 5px;
-        cursor: pointer;
-        transition-duration: 0.4s;
-      }
+.button {
+  background-color: #9979b0;
+  border-radius: 2px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 5px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  }
 
-      .button1:hover {
-        background-color: white;
-        color: black;
-      }
+.button1:hover {
+  background-color: white;
+  color: black;
+  }
 
-      #introduction {
-        float: right;
-        text-align: justify;
-        background-color:#9979b0;
-        padding: 20px;
-      }
+#introduction {
+  float: right;
+  text-align: justify;
+  background-color:#9979b0;
+  padding: 20px;
+  }
 
-      img {
-        height: auto;
-        max-width: 100%;
-        background-color:#9979b0;
-        padding: 20px;
-      }
+img {
+  padding-left: 5%;
+  padding-right: 10%;
+  float: right;
+  }
 
-      #intro-image {
-        display: flex;
-        margin: 0;
-      }
+section p {
+  padding: 5%;
+  font-family: 'Quicksand', sans-serif;
+}
 
-      #artworky {
-        display: contents;
-      }
+h2 {
+  padding-right: 15%;
+}
 
-      form {
-        /* Center the form on the page */
-        margin: 0 auto;
-        width: 400px;
-        /* Form outline */
-        padding: 1em;
-        border: 1px solid #ccc;
-        border-radius: 1em;
-      }
-      
-      ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-      
-      form li + li {
-        margin-top: 1em;
-      }
-      
-      label {
-        /* Uniform size & alignment */
-        display: inline-block;
-        width: 90px;
-        text-align: right;
-      }
-      
-      input,
-      textarea {
-        /* To make sure that all text fields have the same font settings
-           By default, textareas have a monospace font */
-        font: 1em sans-serif;
-      
-        /* Uniform text field size */
-        width: 300px;
-        box-sizing: border-box;
-      
-        /* Match form field borders */
-        border: 1px solid #999;
-      }
-      
-      input:focus,
-      textarea:focus {
-        /* Additional highlight for focused elements */
-        border-color: #000;
-      }
-      
-      textarea {
-        /* Align multiline text fields with their labels */
-        vertical-align: top;
-      
-        /* Provide space to type some text */
-        height: 5em;
-      }
+.fa-instagram {
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+
+.artworky {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
