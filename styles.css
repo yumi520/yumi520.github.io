@@ -1,6 +1,6 @@
 body {
   background-color: rgb(236, 233, 240);
-  font-family: sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 25px;
   color: #0f031a;
   margin: 0px;
@@ -10,7 +10,7 @@ body {
 header {
   font-size: 1.3em;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: #0f031a;
   }
       
@@ -33,14 +33,6 @@ header {
   color: black;
 	}
 
-.column1 {
-  float: center;
-  width: 100%;
-  padding: 15px;
-  background-color: #dacfe3;
-  }
-
-
 .button {
   background-color: #9979b0;
   border-radius: 2px;
@@ -58,19 +50,6 @@ header {
 .button1:hover {
   background-color: white;
   color: black;
-  }
-
-#introduction {
-  float: right;
-  text-align: justify;
-  background-color:#9979b0;
-  padding: 20px;
-  }
-
-img {
-  padding-left: 5%;
-  padding-right: 10%;
-  float: right;
   }
 
 section p {
@@ -96,4 +75,14 @@ h2 {
   margin-right: auto;
   width: 50%;
 
+}
+
+ul {
+  list-style-type: none;  
+}
+
+footer {
+  font-size: small;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: auto;
 }
