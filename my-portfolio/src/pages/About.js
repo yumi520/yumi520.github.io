@@ -14,7 +14,7 @@ function About() {
 
                 <img src={Portrait} alt="me!"></img>
                 <div className="resume-container">
-                    <Button href="https://drive.google.com/file/d/1fwmOHgpD9ZtPzvKFaOLRVh-zhnmqOGht/view?usp=sharing" className="resume-button">
+                    <Button href="https://drive.google.com/file/d/1DpeLBHiJrOjnFw6aeEbVx4zoxPNHJFpF/view?usp=sharing" className="resume-button">
                         Resume ↓
                     </Button>
                 </div>
@@ -43,7 +43,7 @@ function About() {
                     </li>
 
                     <li>
-                    ⟡ Client Service Assistant @ <a href="https://www.afhboston.org/" target="_blank" rel="noopener noreferrer">Artists for Humanity</a>
+                    ⟡ Designer @ <a href="https://cic.northeastern.edu/" target="_blank" rel="noopener noreferrer">Center for Inclusive Computing</a>
                     </li>
                 </ul>
 

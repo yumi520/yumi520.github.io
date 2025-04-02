@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer>
       <section className="footer-nav">
-        <span>© 2024 made with love</span>
+        <span>© 2025 made with love</span>
         <span>personal website</span>
         <ul>
           <li><a href="https://github.com/yumi520" target="_blank" rel="noopener noreferrer">Github</a></li>

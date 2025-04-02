@@ -23,7 +23,7 @@ function Code() {
             <section className="sunney-showcase">
                 <img src={StockSimulator} className="Sunney" alt="home page for Radical Chinese game"></img>
                 <div className="description-section">
-                    <h3>Stock Simulator</h3>
+                    <h3>Stock It!</h3>
                     <h4>Java, Java Spring, JUnit</h4>
                     <p>A stock simulator that allows users to buy and sell stocks, manage multiple portfolios, and track real-time portfolio values</p>
                 </div>
