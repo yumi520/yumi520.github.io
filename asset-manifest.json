@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5c4b38bb.css",
-    "main.js": "/static/js/main.62812c50.js",
+    "main.js": "/static/js/main.3bb0aa0f.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/Pinterest.svg": "/static/media/Pinterest.81b4f6294c81e419596917a08242a977.svg",
     "static/media/SocialSpotify - Quiz.mov": "/static/media/SocialSpotify - Quiz.870b55cdf8b7478825c1.mov",
@@ -38,11 +38,11 @@
     "static/media/sunney - sitemap.png": "/static/media/sunney - sitemap.08515fa9c3d0d6a499a8.png",
     "index.html": "/index.html",
     "main.5c4b38bb.css.map": "/static/css/main.5c4b38bb.css.map",
-    "main.62812c50.js.map": "/static/js/main.62812c50.js.map",
+    "main.3bb0aa0f.js.map": "/static/js/main.3bb0aa0f.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c4b38bb.css",
-    "static/js/main.62812c50.js"
+    "static/js/main.3bb0aa0f.js"
   ]
 }
