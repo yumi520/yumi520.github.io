@@ -1,7 +1,7 @@
 // src/components/Intro.js
 import React from 'react';
 import '../stylesheet/Intro.css';
-import Projects from './Projects';
+// import Projects from './Projects';
 import Drawing from '../assets/portfolio-image-1 3.png';
 
 function Intro() {
@@ -12,12 +12,12 @@ function Intro() {
         <p className="intro-paragraph">
         I'm Yumiko, a 3rd year at Northeastern University with an interest 
         on developing skills in both software development and intuitive 
-        design with curiosity about storytelling.
+        design with curiosity about storytelling
         </p>
 
         {/* <span className="my-works">↓ Works ↓</span> */}
       </section>
-        <Projects />
+        {/* <Projects /> */}
     </section>
   );
 }

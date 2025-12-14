@@ -1,4 +1,5 @@
-import ChristmasDesignerScreen from '../assets/christmasDesignerScreen.png';
+// import ChristmasDesignerScreen from '../assets/christmasDesignerScreen.png';
+import DotsDecor from '../components/shared/DotsDecor.jsx';
 import ChineseRadicalMacbook from '../assets/ChineseRadicalMacbook.png';
 import StockSimulator from '../assets/StockSimulator.png';
 import Button from '../components/shared/Button.js';
@@ -13,19 +14,20 @@ function Code() {
                 <div className="description-section">
                     <h3>Boston Health Care Program</h3>
                     <h4>Full-Stack Volunteer Recruitment Portal</h4>
-                    <p>Site created for BHCPH, a non-profit organization that provides health care access to individuals experiencing homelessness across the Boston community</p>
+                    <p>Created for BHCPH, a non-profit organization that provides health care access to individuals experiencing homelessness across the Boston community</p>
                     <div className="sunney-anchor">
                             <Button href="https://github.com/Code-4-Community/proj-bhchp" className="sunney-button" type="Button" target="_blank" rel="noopener noreferrer">View Full Project ↓</Button>
                     </div>
                 </div>
             </section>
+            <DotsDecor/>
             
             <section className="sunney-showcase">
                 {/* <img src={ChristmasDesignerScreen} className="Sunney" alt="home page for Christmas Designer game"></img> */}
                 <div className="description-section">
                     <h3>HackBeanpot</h3>
                     <h4>Full-Stack Website App</h4>
-                    <p>Site created for HackBeanpot, a hackathon at Northeastern University for beginners</p>
+                    <p>Created for HackBeanpot, a hackathon at Northeastern University for beginners</p>
                     <div className="sunney-anchor">
                             <Button href="https://www.hackbeanpot.com/" className="sunney-button" type="Button" target="_blank" rel="noopener noreferrer">View Full Project ↓</Button>
                     </div>
