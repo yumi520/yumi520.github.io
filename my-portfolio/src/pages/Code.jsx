@@ -9,11 +9,34 @@ function Code() {
         <section className="intro-page">
         <section className="works-section">
             <section className="sunney-showcase">
+                {/* <img src={ChristmasDesignerScreen} className="Sunney" alt="home page for Christmas Designer game"></img> */}
+                <div className="description-section">
+                    <h3>Boston Health Care Program</h3>
+                    <h4>Full-Stack Volunteer Recruitment Portal</h4>
+                    <p>Site created for BHCPH, a non-profit organization that provides health care access to individuals experiencing homelessness across the Boston community</p>
+                    <div className="sunney-anchor">
+                            <Button href="https://github.com/Code-4-Community/proj-bhchp" className="sunney-button" type="Button" target="_blank" rel="noopener noreferrer">View Full Project ↓</Button>
+                    </div>
+                </div>
+            </section>
+            
+            <section className="sunney-showcase">
+                {/* <img src={ChristmasDesignerScreen} className="Sunney" alt="home page for Christmas Designer game"></img> */}
+                <div className="description-section">
+                    <h3>HackBeanpot</h3>
+                    <h4>Full-Stack Website App</h4>
+                    <p>Site created for HackBeanpot, a hackathon at Northeastern University for beginners</p>
+                    <div className="sunney-anchor">
+                            <Button href="https://www.hackbeanpot.com/" className="sunney-button" type="Button" target="_blank" rel="noopener noreferrer">View Full Project ↓</Button>
+                    </div>
+                </div>
+            </section>
+            <section className="sunney-showcase">
                 <img src={ChineseRadicalMacbook} className="Sunney" alt="home page for Radical Chinese game"></img>
                 <div className="description-section">
                     <h3>Chinese Radical Guesser</h3>
                     <h4>Node.js Terminal-Based Game</h4>
-                    <p>Personal Project for Interest in Improving my Chinese</p>
+                    <p>Personal project for interest in improving my Chinese</p>
                     <div className="sunney-anchor">
                             <Button href="https://github.com/yumi520/RadicallyChinese" className="sunney-button" type="Button" target="_blank" rel="noopener noreferrer">View Full Project ↓</Button>
                     </div>
@@ -29,7 +52,7 @@ function Code() {
                 </div>
             </section>
 
-            <section className="sunney-showcase">
+            {/* <section className="sunney-showcase">
                 <img src={ChristmasDesignerScreen} className="Sunney" alt="home page for Christmas Designer game"></img>
                 <div className="description-section">
                     <h3>Christmas Designer</h3>
@@ -39,7 +62,7 @@ function Code() {
                             <Button href="https://github.com/yumi520/holiday-hackathon-yumi-main?tab=readme-ov-file" className="sunney-button" type="Button" target="_blank" rel="noopener noreferrer">View Full Project ↓</Button>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </section>
         </section>
     )

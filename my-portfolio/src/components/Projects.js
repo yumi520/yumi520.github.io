@@ -22,7 +22,7 @@ function Projects() {
         </div>
         </section>
 
-        <section className="sunney-showcase">
+        {/* <section className="sunney-showcase">
         <img src={ChristmasDesignerScreen} className="Sunney" alt="home page for Christmas Designer game"></img>
         <div className="description-section">
             <h3>Christmas Designer</h3>
@@ -32,10 +32,10 @@ function Projects() {
                     <Button href="https://github.com/yumi520/holiday-hackathon-yumi-main?tab=readme-ov-file" className="sunney-button" type="Button" target="_blank" rel="noopener noreferrer">View Full Project ↓</Button>
             </div>
         </div>
-        </section>
+        </section> */}
         <DotsDecor/>
 
-        <section className="sunney-showcase">
+        {/* <section className="sunney-showcase">
             <img src={sunneyMockBG} className="Sunney" alt="Second app mockup of Sunney"></img>
 
             <div className="description-section">
@@ -45,12 +45,12 @@ function Projects() {
 
                 <div className="sunney-anchor">
                     {/* <Link to="/sunney" className="case-study-button">View Full Project ↓</Link> */}
-                    <Button to="/sunney" className="case-study-button">View Full Project ↓</Button>
+                    {/* <Button to="/sunney" className="case-study-button">View Full Project ↓</Button>
                 </div>
-            </div>
-        </section>
+            </div> */}
+        {/* </section> */}
 
-        <section className="sunney-showcase">
+        {/* <section className="sunney-showcase">
         
 
         <img src={SocialSpotifyScreen} className="Sunney" alt="home page Social Spotify"></img>
@@ -62,7 +62,7 @@ function Projects() {
                     <Button to="/spotify" className="case-study-button">View Full Project ↓</Button>
                 </div>
         </div>
-    </section>
+        </section> */}
     </section>
   );
 }

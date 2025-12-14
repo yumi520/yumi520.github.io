@@ -29,6 +29,8 @@
         height: 20em;
         width: 16em;
         margin-top: 5em;
+        object-fit: cover;  /* add this */
+        object-position: center;
     }
 }
 
@@ -61,11 +63,12 @@
 }
 
 .image-button-section img {
-    height: 25em;
-    width: 20em;
+    height: 25em;       /* desired height */
+    width: 20em;        /* desired width */
     margin-bottom: 0em;
     filter: var(--shadow);
-    /* margin-top: 10em; */
+    object-fit: cover;  /* crop instead of stretch */
+    object-position: center; /* center the image */
 }
 
 .experience {

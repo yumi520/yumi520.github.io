@@ -10,7 +10,7 @@ function Intro() {
       <section className="first-section">
         <img src={Drawing} alt="drawing of Yumiko"></img>
         <p className="intro-paragraph">
-        I'm Yumiko, a 2nd year at Northeastern University with an interest 
+        I'm Yumiko, a 3rd year at Northeastern University with an interest 
         on developing skills in both software development and intuitive 
         design with curiosity about storytelling.
         </p>
