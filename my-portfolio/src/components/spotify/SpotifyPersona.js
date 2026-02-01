@@ -1,12 +1,13 @@
 import React from 'react';
 
-import persona from "../../assets/Persona.svg";
+// Placeholder image - same size as others
+const placeholderImage = "https://via.placeholder.com/1200x600/f5f5f5/999999?text=Image+Placeholder";
 
 function SpotifyPersona() {
     return(
         <section class="sunney-findings-analysis">
         <h2>Persona:</h2>
-        <img src={persona} alt="persona"></img>
+        <img src={placeholderImage} alt="persona"></img>
 
         <ul>
             <span>I created three different refine statements for Emilia:</span>

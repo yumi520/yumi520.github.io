@@ -82,7 +82,20 @@ footer,
 .playground-page,
 .playground-section,
 .top-section,
-.bio-section {
+.bio-section,
+.sunneyTopSection,
+.sunney-overview,
+.sunney-problem,
+.sunney-solution,
+.sunneyFourthSection,
+.sunney-comp-analysis,
+.sunney-user-interviews,
+.sunney-findings-analysis,
+.sunney-design,
+.sunneyLowfi,
+.sunneyBranding,
+.sunneyHifi,
+body {
     position: relative;
     z-index: 1;
 }

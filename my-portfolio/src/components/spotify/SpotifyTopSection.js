@@ -26,10 +26,9 @@ function SpotifyTopSection() {
 
     return (
         <DesignTopSection
-            h1="Social Spotify"
-            p="Discover like-minded listeners by taking a quiz!"
             src={spotifyMock}
             alt="Mockup of Social Spotify front page"
+            h1="Social Spotify"
             sections={sections}
         />
      );

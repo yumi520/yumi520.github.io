@@ -4,10 +4,10 @@ import React from 'react';
 function DesignTopSection({ h1='', p='', src='', alt='', sections =[]}) {
     return(
         <section className="sunneyTopSection">
+            <img src={src} alt={alt} loading="eager" />
             {/* the && checks if h1 is a null, undefined, etc */}
             {h1 && <h1 className="top-section-title">{h1}</h1>}
             {p && <p>{p}</p>}
-            <img src={src} alt={alt} />
 
             <div className="data-about-project">
                 {sections.map((section, index) => (

@@ -25,15 +25,15 @@ function About() {
             <section className="heading-paragraph">
             <h1><mark className="hello">Hello!&nbsp;</mark></h1>
                 <p> 
-                I am a 3rd year student at Northeastern University, majoring in Computer Science.
-                <mark className="highlight-p"> I'm passionate about creating applications that are both efficient and highly usable. </mark>
+                I'm Yumiko (Yumi), a student at Northeastern University studying Computer Science & Design with concentrations UX Design. 
+                <mark className="highlight-p">I'm passionate about creating applications that are both efficient and highly usable. </mark>
                 I enjoy solving problems and have a keen interest in full-stack and infrastructure, human-computer interaction, and social advocacy.
                <mark className="highlight-p"> My focus is on making computing accessible and centered around human needs. </mark>
                 </p>
             </section>
 
                 <ul>
-                    <li><span className="experience">Some of my relevant experience:</span></li>
+                    <li><span className="experience">Experiences</span></li>
                     <li>
                     ⟡ Software Engineer Intern @ <a href="https://workspace.google.com/" target="_blank" rel="noopener noreferrer">Google Workspace</a>
                     </li>

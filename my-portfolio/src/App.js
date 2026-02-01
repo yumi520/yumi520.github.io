@@ -13,23 +13,29 @@ import Design from './pages/Design.jsx';
 import Playground from './pages/Playground.jsx';
 import ColorBlobs from './components/shared/ColorBlobs';
 
+function AppContent() {
+  return (
+    <div className="App">
+      <ColorBlobs />
+      <Header />
+      <Routes>
+        <Route path="/" element={<Intro />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/code" element={<Code />} />
+        <Route path="/design" element={<Design />} />
+        <Route path="/playground" element={<Playground />} />
+        <Route path="/sunney" element={<Sunney />} />
+        <Route path="/spotify" element={<Spotify />} />
+      </Routes>
+      <Footer />
+    </div>
+  );
+}
+
 function App() {
   return (
     <Router>
-      <div className="App">
-        <ColorBlobs />
-        <Header />
-        <Routes>
-          <Route path="/" element={<Intro />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/code" element={<Code />} />
-          <Route path="/design" element={<Design />} />
-          <Route path="/playground" element={<Playground />} />
-          <Route path="/sunney" element={<Sunney />} />
-          <Route path="/spotify" element={<Spotify />} />
-        </Routes>
-        <Footer />
-      </div>
+      <AppContent />
     </Router>
   );
 }
