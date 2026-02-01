@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.53e1c03e.css",
-    "main.js": "/static/js/main.5f2ab986.js",
+    "main.css": "/static/css/main.56a707e7.css",
+    "main.js": "/static/js/main.e7f3f692.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/Pinterest.svg": "/static/media/Pinterest.81b4f6294c81e419596917a08242a977.svg",
     "static/media/SocialSpotify - Quiz.mov": "/static/media/SocialSpotify - Quiz.870b55cdf8b7478825c1.mov",
@@ -20,28 +20,32 @@
     "static/media/Screenshot 2024-01-04 at 4.48.08 PM.png": "/static/media/Screenshot 2024-01-04 at 4.48.08 PM.e68c35817879265f2ac8.png",
     "static/media/20250601200948_IMG_6829_Original.jpg": "/static/media/20250601200948_IMG_6829_Original.6190cae29ae3aba7f73a.jpg",
     "static/media/SpotifyWorkflow.svg": "/static/media/SpotifyWorkflow.f9daaac0bc6382b1b8245b13dfb96035.svg",
+    "static/media/CETRMockup.png": "/static/media/CETRMockup.d0e2b8add8ecb8b75b85.png",
     "static/media/SpotifyUserResearch.png": "/static/media/SpotifyUserResearch.d334872dcabd3d7c4dd6.png",
     "static/media/sunneyMockBG.png": "/static/media/sunneyMockBG.fd7d0e7d57b71c3de5e5.png",
     "static/media/portfolio-image-1 3.png": "/static/media/portfolio-image-1 3.daf5ddce5d01c4a33d37.png",
     "static/media/SpotifyLofi.png": "/static/media/SpotifyLofi.1d5cddd5cca047e8f299.png",
-    "static/media/ChineseRadicalMacbook.png": "/static/media/ChineseRadicalMacbook.63f603aa9e30b37ce91a.png",
-    "static/media/StockSimulator.png": "/static/media/StockSimulator.8a6c50f3ef4c5b087559.png",
+    "static/media/Mixue.png": "/static/media/Mixue.abc98ed0138d55ce7f9e.png",
+    "static/media/HBP.png": "/static/media/HBP.3748db2dcc7d07cb9322.png",
     "static/media/SpotifySketches.png": "/static/media/SpotifySketches.46702cf946541adbf1fc.png",
     "static/media/SpotifyHifi.svg": "/static/media/SpotifyHifi.451ac02539f5edd47cfa50c5987035c1.svg",
     "static/media/Chow,Yumiko._CreativeMind_.jpg": "/static/media/Chow,Yumiko._CreativeMind_.5756f851a95f8cc0e516.jpg",
+    "static/media/CiCData.png": "/static/media/CiCData.ab3fbf1cd2f7da89ca09.png",
     "static/media/Chow,Yumiko._CatHaven_.jpg": "/static/media/Chow,Yumiko._CatHaven_.ab74cab6f929c4c46d00.jpg",
     "static/media/Screenshot 2024-01-04 at 5.16.57 PM.png": "/static/media/Screenshot 2024-01-04 at 5.16.57 PM.b6e0b43101c25ed16f3f.png",
     "static/media/SocialSpotifyBG.png": "/static/media/SocialSpotifyBG.1104ac54c416377f6fc8.png",
     "static/media/Screenshot 2024-01-04 at 5.15.33 PM.png": "/static/media/Screenshot 2024-01-04 at 5.15.33 PM.ff47d1f8fab47eb0762f.png",
     "static/media/sunney - comp analysis.png": "/static/media/sunney - comp analysis.6a19c318531254d52ec8.png",
     "static/media/sunney - sitemap.png": "/static/media/sunney - sitemap.08515fa9c3d0d6a499a8.png",
+    "static/media/BHCPH.png": "/static/media/BHCPH.b7ad61344be4b2114a95.png",
+    "static/media/BCAN.png": "/static/media/BCAN.dd9333c45c08eba94324.png",
     "index.html": "/index.html",
-    "main.53e1c03e.css.map": "/static/css/main.53e1c03e.css.map",
-    "main.5f2ab986.js.map": "/static/js/main.5f2ab986.js.map",
+    "main.56a707e7.css.map": "/static/css/main.56a707e7.css.map",
+    "main.e7f3f692.js.map": "/static/js/main.e7f3f692.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53e1c03e.css",
-    "static/js/main.5f2ab986.js"
+    "static/css/main.56a707e7.css",
+    "static/js/main.e7f3f692.js"
   ]
 }
