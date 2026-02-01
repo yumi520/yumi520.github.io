@@ -11,7 +11,7 @@ function SpotifyUserInterviews() {
             music easily.
         </p>
         <p>
-        Of course, this was just a hypothesis. <mark className="highlight">I interviewed three young adukts users over Zoom and asked them all about
+        Of course, this was just a hypothesis. <mark className="highlight">I interviewed three young adults users over Zoom and asked them all about
          their experiences. I was curious about what they enjoyed, their motivations for using social media/Spotify, and ultimately their
           pain/bright points so that I could devise a solution.</mark>
         </p>

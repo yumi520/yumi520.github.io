@@ -9,8 +9,9 @@ function Header() {
         <nav>
           <ul className="pages">
             <li className="logo"> <Link to="/"> YUMIKO CHOW</Link></li>
-            <li className="works-link"> <Link to="/code"> CODE </Link></li>
-            <li className="works-link"> <Link to="/design"> DESIGN </Link></li>
+            <li className="works-link"> <Link to="/code"> DEV </Link></li>
+            <li className="works-link"> <Link to="/design"> UI/UX </Link></li>
+            <li className="works-link"> <Link to="/playground"> PLAY </Link></li>
             <li className="about-me"> <Link to="/about"> ABOUT </Link></li>
           </ul>
         </nav>

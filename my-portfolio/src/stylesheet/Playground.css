@@ -1,0 +1,130 @@
+/* Playground Page Styles - Inspired by Alyssa Long's marketing design page */
+
+.playground-subtitle {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #222325;
+    margin: -2em 0 3em 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.playground-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 3em 2em;
+    margin-top: 2em;
+}
+
+.playground-item {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.playground-item:hover {
+    opacity: 0.7;
+}
+
+.playground-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.playground-item:hover .playground-image {
+    transform: scale(1.02);
+    opacity: 0.9;
+}
+
+.playground-item-title {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+}
+
+.playground-item-title h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    color: #06070E;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    line-height: 1.4;
+}
+
+.playground-item-subtitle {
+    font-size: 0.85rem;
+    font-weight: 400;
+    margin: 0;
+    color: #666;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    line-height: 1.4;
+}
+
+.playground-empty {
+    text-align: center;
+    padding: 4em 2em;
+    color: #888;
+}
+
+.playground-empty p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0.5em 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.playground-empty-hint {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+@media screen and (max-width: 768px) {
+    .playground-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 2em 1.5em;
+    }
+    
+    .playground-subtitle {
+        margin: -2em 0 2em 0;
+        text-align: center;
+    }
+    
+    .playground-item-title {
+        text-align: center;
+        align-items: center;
+    }
+    
+    .playground-item-title h3 {
+        text-align: center;
+    }
+    
+    .playground-item-subtitle {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .playground-grid {
+        grid-template-columns: 1fr;
+        gap: 2em;
+    }
+    
+    .playground-item-title {
+        text-align: center;
+        align-items: center;
+    }
+}

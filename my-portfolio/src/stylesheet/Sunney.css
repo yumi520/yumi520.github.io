@@ -1,208 +1,291 @@
-/* Spotify User Interviews */
-/* Sunney doesnt have a p but Spotify does */
+/* Case Study Page Styles - Matching Alyssa Long Design */
 
-.sunney-user-interviews p {
-    line-height: 30px;
-    width: 50%;
-    margin: auto;
-    display: block;
-    text-align: start;
-    margin-bottom: 3em;
+body {
+    background-color: #fffbf9;
 }
 
-/* css for the top section */
-@media screen and (max-width: 500px) {
-    .data-about-project {
-        flex-wrap: wrap;
-    }
-}
-
-/* end */
-
-
-
-/* css for videos and the captions */
-
-.no-controls {
-    pointer-events: none; /* Disable all pointer events */
-    max-width: 50%;
-}
-
-.video-container-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.video-container-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.video-caption {
-    text-align: center;
-    max-width: 15em;
-    font-weight: 700;
-    font-size: x-large;
-    margin-bottom: 2em;
-    line-height: 1.5em;
-}
-
-.sunney-solution video {
-    height: 30em;
-    width: 30em;
-}
-
-/* end */
-
+/* Top Section */
 .sunneyTopSection {
-    text-align: center;
-    border-bottom: var(--border);
-    margin-bottom: 5em;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em 2em 2em 2em;
+    text-align: left;
 }
 
-.sunneyTopSection ul {
-    margin-bottom: 3em;
-}
-
-.sunney-overview-title {
-    font-size: small;
-}
-
-.data-about-project {
-    display: flex;
-    justify-content: space-evenly;
+.top-section-title {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 400;
+    margin: 0 0 1rem 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    color: #06070E;
 }
 
 .sunneyTopSection p {
-    display: flex;
-    justify-content: center;
-    font-weight: 400;
-    font-size: 1.3em;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: #222325;
+    margin: 0 0 3em 0;
+    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+}
 
+.sunneyTopSection img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 3em auto;
+    border-radius: 4px;
+    display: block;
+    object-fit: contain;
+}
+
+.data-about-project {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2em;
+    margin-top: 3em;
+    padding-top: 2em;
+    border-top: 1px solid #e0e0e0;
+}
+
+.data-about-project ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .data-about-project span {
-    font-size: large;
+    font-size: 0.85rem;
     font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #222325;
+    display: block;
+    margin-bottom: 0.5em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
 }
 
 .data-about-project li {
-    margin-top: 1em;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #222325;
+    margin: 0.25em 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
 }
 
-.sunneyTopSection h1 {
-    font-family: 'ED Garamond';
-    font-weight: bolder;
-    font-size: 5rem;
-}
-
-img {
-    width: 50%;
-    margin: auto;
-    display: block;
+/* Section Styles */
+.sunney-overview, .sunney-problem, .sunney-solution,
+.sunneyFourthSection, .sunney-comp-analysis, .sunney-user-interviews, 
+.sunney-findings-analysis, .sunney-design, .sunneyLowfi, 
+.sunneyBranding, .sunneyHifi {
+    max-width: 1200px;
+    margin: 0 auto 6em auto;
+    padding: 0 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sunney-overview h2, .sunney-problem h2, .sunney-solution h2,
- .sunneyFourthSection h2, .sunney-comp-analysis h2, .sunney-user-interviews h2, .sunney-findings-analysis h2, .sunney-design h2 {
-    font-family: 'ED Garamond';
-    font-weight: bold;
-    font-size: 2rem;
+.sunneyFourthSection h2, .sunney-comp-analysis h2, .sunney-user-interviews h2, 
+.sunney-findings-analysis h2, .sunney-design h2, .sunneyLowfi h2,
+.sunneyBranding h2, .sunneyHifi h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0 0 1.5em 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    color: #06070E;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.sunney-design h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 2em 0 1em 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    color: #06070E;
+    align-self: flex-start;
+    width: 100%;
 }
 
 .sunney-overview p, .sunney-problem p, .sunney-solution p,
- .sunneyFourthSection p, .sunney-comp-analysis p, .sunneyHifi p,
- .sunney-comp-analysis span {
-    line-height: 30px;
-    width: 50%;
-    margin: auto;
-    display: block;
-    text-align: start;
-    margin-bottom: 3em;
+.sunneyFourthSection p, .sunney-comp-analysis p, .sunneyHifi p,
+.sunney-comp-analysis span, .sunney-design span, .sunneyLowfi p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #222325;
+    margin: 0 0 2em 0;
+    max-width: 700px;
+    align-self: flex-start;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
 }
 
-.sunney-design span, .sunneyLowfi p  {
-    line-height: 30px;
-    width: 50%;
-    margin: auto;
-    display: block;
-    text-align: start;
-    margin-bottom: 1em;
-}
-
-.sunney-user-interviews ul, .sunney-findings-analysis ul {
-    line-height: 1.5em;
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 5em;
-
-}
-
-.sunney-user-interviews li, .sunney-findings-analysis li {
-    line-height: 1.5em;
-    width: 50%;
-    margin: auto;
-    text-align: start;
-
-}
-
-.sunney-user-interviews span, .sunney-findings-analysis span {
-    width: 50%;
-    margin: auto;
-    display: block;
-    text-align: start;
-    font-weight: 500;
-    margin-bottom: 1em;
-
-}
-
-.sunney-comp-analysis p, .sunney-user-interviews span, .sunney-findings-analysis span {
-    margin-top: 2em;
-}
-
-.sunney-overview, .sunney-problem, .sunney-solution,
- .sunneyFourthSection, .sunney-comp-analysis, .sunney-user-interviews, .sunney-findings-analysis, .sunney-design {
-    text-align: center;
+.sunney-user-interviews p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #222325;
+    margin: 0 0 2em 0;
+    max-width: 700px;
+    align-self: flex-start;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
 }
 
 .sunney-problem p {
     background-color: #e9e5e1;
-    padding: 2em;
+    padding: 1.5em;
+    border-radius: 4px;
 }
 
 .sunney-solution p {
     background-color: #f8e2d1;
-    padding: 2em;
+    padding: 1.5em;
+    border-radius: 4px;
 }
 
-.sunney-overview h2, .sunney-problem h2, .sunney-solution h2, .sunney-comp-analysis h2,
-.sunney-user-interviews h2, .sunney-findings-analysis h2, .sunney-design h2, .sunneyLowfi h2,
- .sunneyBranding h2, .sunneyHifi h2 {
+/* Images */
+.sunney-overview img, .sunney-problem img, .sunney-solution img,
+.sunney-comp-analysis img, .sunney-design img, .sunneyLowfi img,
+.sunneyBranding img, .sunneyHifi img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 2em auto;
+    border-radius: 4px;
+    display: block;
+    object-fit: contain;
+}
+
+/* Container for multiple images in a section */
+.sunneyHifi {
     display: flex;
-    font-family: 'ED Garamond';
-    justify-content: flex-start;
-    margin-left: 20%;
-    font-size: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
 }
 
-.sunney-design h3 {
+.sunneyHifi img {
+    max-width: 100%;
+    width: auto;
+}
+
+/* Lists */
+.sunney-user-interviews ul, .sunney-findings-analysis ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2em 0;
+    max-width: 700px;
+    align-self: flex-start;
+}
+
+.sunney-user-interviews li, .sunney-findings-analysis li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #222325;
+    margin: 0.5em 0;
+    padding-left: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.sunney-user-interviews span, .sunney-findings-analysis span {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #222325;
+    display: block;
+    margin: 0 0 1em 0;
+    align-self: flex-start;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+/* Videos */
+.no-controls {
+    pointer-events: none;
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.video-container-right, .video-container-left {
     display: flex;
-    justify-content: flex-start;
-    margin-left: 23%;
-    font-weight: 600;
-    font-size: 1.3em;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2em 0;
 }
 
-.sunneyLowfi, .sunneyBranding, .sunneyHifi {
-    margin-bottom: 100px;
+.video-caption {
+    text-align: center;
+    max-width: 600px;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 1em 0;
+    line-height: 1.6;
+    color: #222325;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
 }
 
-.sunneyHifi p {
-    margin-bottom: 0.1em;
+.sunney-solution video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+    margin: 2em auto;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .sunneyTopSection {
+        padding: 2em 1em;
+    }
+    
+    .data-about-project {
+        grid-template-columns: 1fr;
+        gap: 1.5em;
+    }
+    
+    .sunney-overview, .sunney-problem, .sunney-solution,
+    .sunneyFourthSection, .sunney-comp-analysis, .sunney-user-interviews, 
+    .sunney-findings-analysis, .sunney-design, .sunneyLowfi, 
+    .sunneyBranding, .sunneyHifi {
+        padding: 0 1em;
+        margin-bottom: 4em;
+    }
+    
+    /* Ensure images stay centered and don't overflow on mobile */
+    .sunney-overview img, .sunney-problem img, .sunney-solution img,
+    .sunney-comp-analysis img, .sunney-design img, .sunneyLowfi img,
+    .sunneyBranding img, .sunneyHifi img {
+        max-width: 100%;
+        width: 100%;
+        margin: 1.5em auto;
+    }
+    
+    .sunneyHifi img {
+        width: 100%;
+        max-width: 100%;
+    }
 }

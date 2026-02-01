@@ -23,7 +23,7 @@ function About() {
                 
             <div className="word-section"> 
             <section className="heading-paragraph">
-            <h1><mark className="hello">Hello!&nbsp;</mark> I'm Yumiko.</h1>
+            <h1><mark className="hello">Hello!&nbsp;</mark></h1>
                 <p> 
                 I am a 3rd year student at Northeastern University, majoring in Computer Science.
                 <mark className="highlight-p"> I'm passionate about creating applications that are both efficient and highly usable. </mark>
@@ -35,7 +35,10 @@ function About() {
                 <ul>
                     <li><span className="experience">Some of my relevant experience:</span></li>
                     <li>
-                    ⟡ Associate Software Developer Intern (STEP) @ <a href="https://mapsplatform.google.com/" target="_blank" rel="noopener noreferrer">Google</a>
+                    ⟡ Software Engineer Intern @ <a href="https://workspace.google.com/" target="_blank" rel="noopener noreferrer">Google Workspace</a>
+                    </li>
+                    <li>
+                    ⟡ Associate Software Developer Intern (STEP) @ <a href="https://mapsplatform.google.com/" target="_blank" rel="noopener noreferrer">Google Maps</a>
                     </li>
 
                     <li>
