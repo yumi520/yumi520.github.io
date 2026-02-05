@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7169a7fb.css",
-    "main.js": "/static/js/main.d406b3e1.js",
+    "main.css": "/static/css/main.c60f3ccb.css",
+    "main.js": "/static/js/main.63cd566a.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/SocialSpotify - Quiz.mov": "/static/media/SocialSpotify - Quiz.870b55cdf8b7478825c1.mov",
     "static/media/Screenshot 2023-10-30 at 6.14.57 PM.png": "/static/media/Screenshot 2023-10-30 at 6.14.57 PM.a12cb4d0b3b83c608dd7.png",
@@ -12,12 +12,19 @@
     "static/media/Screenshot 2023-10-30 at 6.30.00 PM.png": "/static/media/Screenshot 2023-10-30 at 6.30.00 PM.a1f97be654e8dc09eb47.png",
     "static/media/Screenshot 2023-10-30 at 6.29.43 PM.png": "/static/media/Screenshot 2023-10-30 at 6.29.43 PM.f08832d816d95fd13f50.png",
     "static/media/IMG_8175.jpg": "/static/media/IMG_8175.4a4b561eb8b33e78dc3e.jpg",
+    "static/media/f2.png": "/static/media/f2.a64401ac8624fc390096.png",
     "static/media/Screenshot 2024-01-04 at 5.17.42 PM.png": "/static/media/Screenshot 2024-01-04 at 5.17.42 PM.aa93f35cacb0fe5acd21.png",
+    "static/media/f3.png": "/static/media/f3.5b86f60f54c354832ea6.png",
+    "static/media/f1.png": "/static/media/f1.844cbb0354b1498c18ed.png",
+    "static/media/f4.png": "/static/media/f4.99dd57176bcc03181890.png",
     "static/media/Screenshot 2024-01-04 at 4.48.08 PM.png": "/static/media/Screenshot 2024-01-04 at 4.48.08 PM.e68c35817879265f2ac8.png",
     "static/media/20250601200948_IMG_6829_Original.jpg": "/static/media/20250601200948_IMG_6829_Original.6190cae29ae3aba7f73a.jpg",
     "static/media/sunneyMockBG.png": "/static/media/sunneyMockBG.fd7d0e7d57b71c3de5e5.png",
     "static/media/portfolio-image-1 3.png": "/static/media/portfolio-image-1 3.daf5ddce5d01c4a33d37.png",
     "static/media/Chow,Yumiko._CreativeMind_.jpg": "/static/media/Chow,Yumiko._CreativeMind_.5756f851a95f8cc0e516.jpg",
+    "static/media/f5.png": "/static/media/f5.0487047434e2c887827e.png",
+    "static/media/kat_gatorade poster final.png": "/static/media/kat_gatorade poster final.5e53503a90c4fcc5a3eb.png",
+    "static/media/eliud kipchoge poster final.png": "/static/media/eliud kipchoge poster final.b310af516ea0ec1f1043.png",
     "static/media/HBP.png": "/static/media/HBP.a5f24f01760cca87d984.png",
     "static/media/Chow,Yumiko._CatHaven_.jpg": "/static/media/Chow,Yumiko._CatHaven_.ab74cab6f929c4c46d00.jpg",
     "static/media/Screenshot 2024-01-04 at 5.16.57 PM.png": "/static/media/Screenshot 2024-01-04 at 5.16.57 PM.b6e0b43101c25ed16f3f.png",
@@ -28,12 +35,12 @@
     "static/media/CiCData.png": "/static/media/CiCData.615859cf593359f0a042.png",
     "static/media/BCAN.png": "/static/media/BCAN.74d33fd885209b86699b.png",
     "index.html": "/index.html",
-    "main.7169a7fb.css.map": "/static/css/main.7169a7fb.css.map",
-    "main.d406b3e1.js.map": "/static/js/main.d406b3e1.js.map",
+    "main.c60f3ccb.css.map": "/static/css/main.c60f3ccb.css.map",
+    "main.63cd566a.js.map": "/static/js/main.63cd566a.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7169a7fb.css",
-    "static/js/main.d406b3e1.js"
+    "static/css/main.c60f3ccb.css",
+    "static/js/main.63cd566a.js"
   ]
 }
