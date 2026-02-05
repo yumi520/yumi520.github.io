@@ -9,7 +9,7 @@ function Intro() {
       <section className="hero-section">
         <div className="hero-content">
           <h1 className="hero-title">
-            Hey there, I'm <span className="me-animated">Yumiko Chow</span>.
+            Hi there, I'm <span className="me-animated">Yumiko!</span>
           </h1>
           <p className="hero-tagline">
           Boston-based developer and designer turning complex systems into accessible, human-centered software.

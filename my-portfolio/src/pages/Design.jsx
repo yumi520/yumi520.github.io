@@ -53,6 +53,7 @@ function Design() {
             subtitle: "UI/UX Design / Mobile App",
             description: "Redesign Project from Interaction Design Principles",
             linkTo: "https://drive.google.com/file/d/1ODVtdhgI_alf-l7pFK9hHrQF-8_oempx/view?usp=sharing"
+            // linkTo: "/spotify"
         },
         // Add more projects here by copying the object above and updating the values
         // Example:

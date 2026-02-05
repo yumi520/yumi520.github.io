@@ -15,14 +15,14 @@ function SpotifyUserInterviews() {
          their experiences. I was curious about what they enjoyed, their motivations for using social media/Spotify, and ultimately their
           pain/bright points so that I could devise a solution.</mark>
         </p>
-        <ul>
+        {/* <ul>
             <span>Objects for 1:1 Interviews</span>
             <li>⟡ Find out likes/dislikes of their most-used social medias</li>
             <li>⟡ Learn about what social medias gave them the most difficulty</li>
             <li>⟡ Find out what they would change</li>
             <li>⟡ Find out their opinions on sharing music with friends</li>
             <li>⟡ Magic Wand: What would they do if they could make Spotify social?</li>
-        </ul>
+        </ul> */}
     </section>
     );
 }

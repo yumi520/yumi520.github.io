@@ -3,6 +3,14 @@ import '../stylesheet/Playground.css';
 import '../stylesheet/Projects.css';
 import { Link } from 'react-router-dom';
 import CIC from "../assets/CiCData.png";
+import f1 from "../assets/f1.png";
+import f2 from "../assets/f2.png";
+import f3 from "../assets/f3.png";
+import f4 from "../assets/f4.png";
+import f5 from "../assets/f5.png";
+import ImageCarousel from '../components/shared/ImageCarousel';
+import ELIUD from "../assets/eliud kipchoge poster final.png";
+import KAT from "../assets/kat_gatorade poster final.png";
 
 // Import images - add your CIC report image to assets folder and update the import path
 // import CICReport from '../assets/cic-five-year-report.png';
@@ -25,21 +33,18 @@ import CIC from "../assets/CiCData.png";
  * - linkTo: Optional internal route (e.g., "/playground/my-item")
  * - linkHref: Optional external URL
  * 
- * Example:
- * 
- * import TypographyStudy from '../assets/typography-study.png';
- * 
- * {
- *     image: TypographyStudy,
- *     imageAlt: "Typography study design",
- *     title: "Typography Study",
- *     subtitle: "May 2025", // optional - great for dates!
- *     // linkTo: "/playground/typography" // optional
- * }
  */
 function Playground() {
+
     // Add your playground items here
     const items = [
+        // {
+        //     image: ELIUD,
+        //     imageAlt: "Gatorade Pods | Marketing",
+        //     title: "Branding & Identity | Gatorade Branding",
+        //     subtitle: "Feb 2026",
+        //     // I worked on the design and creating graphs
+        // },
         {
             image: CIC,
             imageAlt: "CIC Five Year Report cover design",
@@ -48,6 +53,21 @@ function Playground() {
             linkHref: "https://cic.northeastern.edu/wp-content/uploads/2025/05/CIC-Five-Year-Report_May-2025.pdf"
             // I worked on the design and creating graphs
         },
+        {
+            images: [
+                { src: f1, alt: "Gatorade Pods - Image 1" },
+                { src: f2, alt: "Gatorade Pods - Image 2" },
+                { src: f3, alt: "Gatorade Pods - Image 3" },
+                { src: f4, alt: "Gatorade Pods - Image 4" },
+                { src: f5, alt: "Gatorade Pods - Image 5" },
+            ],
+            imageAlt: "Gatorade Pods",
+            title: "Branding & Identity | Gatorade Pods",
+            subtitle: "Feb 2026",
+            // I worked on the design and creating graphs
+        },
+
+        
         // {
         //     image: Mixue,
         //     imageAlt: "Mixue Branding",
@@ -65,14 +85,18 @@ function Playground() {
     return (
         <section className="intro-page">
             <section className="works-section">
-                <h2 className="playground-title">PLAY</h2>
+                <h2 className="playground-title">My Design Playground</h2>
                 
                 {items.length > 0 ? (
                     <div className="playground-grid">
                         {items.map((item, index) => {
                             const cardContent = (
                                 <>
-                                    {item.image && <img src={item.image} className="playground-image" alt={item.imageAlt} />}
+                                    {item.images ? (
+                                        <ImageCarousel images={item.images} />
+                                    ) : item.image ? (
+                                        <img src={item.image} className="playground-image" alt={item.imageAlt} />
+                                    ) : null}
                                     <div className="playground-item-title">
                                         <h3>{item.title}</h3>
                                         {item.subtitle && <p className="playground-item-subtitle">{item.subtitle}</p>}

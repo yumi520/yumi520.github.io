@@ -8,6 +8,7 @@ import About from './pages/About';
 import Footer from './components/Footer';
 import Sunney from './pages/Sunney';
 import Spotify from './pages/SocialSpotify.js';
+import Groupify from './pages/Groupify.js';
 import Code from './pages/Code.jsx';
 import Design from './pages/Design.jsx';
 import Playground from './pages/Playground.jsx';
@@ -26,6 +27,7 @@ function AppContent() {
         <Route path="/playground" element={<Playground />} />
         <Route path="/sunney" element={<Sunney />} />
         <Route path="/spotify" element={<Spotify />} />
+        <Route path="/groupify" element={<Groupify />} />
       </Routes>
       <Footer />
     </div>
