@@ -21,33 +21,19 @@ import ImageCarousel from './shared/ImageCarousel';
 
 const FILTERS = [
   { key: 'dev', label: 'Dev' },
-  { key: 'design', label: 'Design' },
+  { key: 'design', label: 'UI/UX Design' },
   { key: 'branding', label: 'Branding' },
 ];
 
 const ALL_PROJECTS = [
-  {
-    categories: ['design'],
-    image: CETRThumbnail,
-    imageAlt: 'Community Teaching and Research at NEU Website Redesign',
-    title: 'CETR Website Redesign',
-    subtitle: 'Website redesign for Community Teaching and Research at Northeastern University.',
-    linkTo: '/cetr',
-  },
-  {
-    categories: ['design'],
-    image: SocialSpotifyScreen,
-    imageAlt: 'Social Spotify app',
-    title: 'Social Spotify',
-    subtitle: 'A mobile app concept adding social features to Spotify so music lovers can connect and discover together.',
-    linkTo: '/spotify',
-  },
   {
     categories: ['dev'],
     image: BCAN,
     imageAlt: 'Boston Climate Action Network',
     title: 'Boston Climate Action Network Grant Tracker',
     subtitle: 'Grant tracking portal for a climate justice nonprofit that organizes Boston residents and social justice allies.',
+    designStack: [],
+    techStack: ['React', 'Typescript', 'PostgreSQL'],
     linkHref: 'https://github.com/Code-4-Community/bcan',
   },
   {
@@ -56,7 +42,29 @@ const ALL_PROJECTS = [
     imageAlt: 'HackBeanpot',
     title: 'HackBeanpot Main/Live Website',
     subtitle: 'Full-stack website for HackBeanpot, a beginner-friendly hackathon at Northeastern University.',
+    designStack: [],
+    techStack: ['Next.js', 'Typescript', 'TailwindCSS'],
     linkHref: 'https://www.hackbeanpot.com/',
+  },
+  {
+    categories: ['design'],
+    image: CETRThumbnail,
+    imageAlt: 'Community Teaching and Research at NEU Website Redesign',
+    title: 'CETR Website Redesign',
+    subtitle: 'Website redesign for Community Teaching and Research at Northeastern University.',
+    designStack: ['Figma'],
+    techStack: [],
+    linkTo: '/cetr',
+  },
+  {
+    categories: ['design'],
+    image: SocialSpotifyScreen,
+    imageAlt: 'Social Spotify app',
+    title: 'Social Spotify',
+    subtitle: 'A mobile app concept adding social features to Spotify so music lovers can connect and discover together.',
+    designStack: ['Figma', 'Mobile Design'],
+    techStack: [],
+    linkTo: '/spotify',
   },
   {
     categories: ['branding'],
@@ -64,6 +72,8 @@ const ALL_PROJECTS = [
     imageAlt: 'CIC Five Year Report cover design',
     title: 'Center for Inclusive Computing Five Year Report',
     subtitle: 'Five-year impact report design for the Center for Inclusive Computing at Northeastern.',
+    designStack: ['Figma', 'InDesign'],
+    techStack: [],
     linkHref: 'https://cic.northeastern.edu/wp-content/uploads/2025/05/CIC-Five-Year-Report_May-2025.pdf',
   },
   {
@@ -78,6 +88,8 @@ const ALL_PROJECTS = [
     imageAlt: 'Gatorade Pods',
     title: 'Gatorade Pods',
     subtitle: 'Branding and packaging concept for Gatorade Pods hydration product.',
+    designStack: ['Figma', 'Illustrator', 'Photoshop'],
+    techStack: [],
     hasCarousel: true,
   },
 ];
@@ -165,6 +177,16 @@ function Intro() {
                   <h3>{project.title}</h3>
                   {project.subtitle && (
                     <p className="playground-item-subtitle">{project.subtitle}</p>
+                  )}
+                  {(project.designStack?.length || project.techStack?.length) > 0 && (
+                    <div className="project-stack-tags">
+                      {project.designStack?.map((tool) => (
+                        <span key={tool} className="project-stack-tag project-stack-tag--design">{tool}</span>
+                      ))}
+                      {project.techStack?.map((tool) => (
+                        <span key={tool} className="project-stack-tag project-stack-tag--tech">{tool}</span>
+                      ))}
+                    </div>
                   )}
                 </div>
               </>
