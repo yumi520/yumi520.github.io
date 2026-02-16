@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1c8e187.css",
-    "main.js": "/static/js/main.58209ca7.js",
+    "main.css": "/static/css/main.deed0f99.css",
+    "main.js": "/static/js/main.366fd14e.js",
     "static/js/453.41811d64.chunk.js": "/static/js/453.41811d64.chunk.js",
     "static/media/Screenshot 2023-10-30 at 6.14.57 PM.png": "/static/media/Screenshot 2023-10-30 at 6.14.57 PM.a12cb4d0b3b83c608dd7.png",
     "static/media/Screenshot 2023-10-30 at 6.15.05 PM.png": "/static/media/Screenshot 2023-10-30 at 6.15.05 PM.5239aa4de715f22db440.png",
     "static/media/Screenshot 2023-10-30 at 6.15.24 PM.png": "/static/media/Screenshot 2023-10-30 at 6.15.24 PM.b96067f0c47ef3b6aea9.png",
     "static/media/Screenshot 2023-10-30 at 6.29.24 PM.png": "/static/media/Screenshot 2023-10-30 at 6.29.24 PM.e49c7f283ca50b0b497f.png",
+    "static/media/me_sitting.png": "/static/media/me_sitting.c56c0aff21939e8c0282.png",
     "static/media/Screenshot 2023-10-30 at 6.30.00 PM.png": "/static/media/Screenshot 2023-10-30 at 6.30.00 PM.a1f97be654e8dc09eb47.png",
     "static/media/Screenshot 2023-10-30 at 6.29.43 PM.png": "/static/media/Screenshot 2023-10-30 at 6.29.43 PM.f08832d816d95fd13f50.png",
     "static/media/IMG_8175.jpg": "/static/media/IMG_8175.4a4b561eb8b33e78dc3e.jpg",
@@ -26,8 +27,6 @@
     "static/media/2.png": "/static/media/2.842c66e6ebae74df8a8a.png",
     "static/media/Chow,Yumiko._CreativeMind_.jpg": "/static/media/Chow,Yumiko._CreativeMind_.5756f851a95f8cc0e516.jpg",
     "static/media/f5.png": "/static/media/f5.0487047434e2c887827e.png",
-    "static/media/kat_gatorade poster final.png": "/static/media/kat_gatorade poster final.5e53503a90c4fcc5a3eb.png",
-    "static/media/eliud kipchoge poster final.png": "/static/media/eliud kipchoge poster final.b310af516ea0ec1f1043.png",
     "static/media/HBP.png": "/static/media/HBP.a5f24f01760cca87d984.png",
     "static/media/Chow,Yumiko._CatHaven_.jpg": "/static/media/Chow,Yumiko._CatHaven_.ab74cab6f929c4c46d00.jpg",
     "static/media/Screenshot 2024-01-04 at 5.16.57 PM.png": "/static/media/Screenshot 2024-01-04 at 5.16.57 PM.b6e0b43101c25ed16f3f.png",
@@ -47,12 +46,12 @@
     "static/media/5.png": "/static/media/5.2979167a223102b920ce.png",
     "static/media/12.png": "/static/media/12.476c9b4515d559c3cba3.png",
     "index.html": "/index.html",
-    "main.c1c8e187.css.map": "/static/css/main.c1c8e187.css.map",
-    "main.58209ca7.js.map": "/static/js/main.58209ca7.js.map",
+    "main.deed0f99.css.map": "/static/css/main.deed0f99.css.map",
+    "main.366fd14e.js.map": "/static/js/main.366fd14e.js.map",
     "453.41811d64.chunk.js.map": "/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1c8e187.css",
-    "static/js/main.58209ca7.js"
+    "static/css/main.deed0f99.css",
+    "static/js/main.366fd14e.js"
   ]
 }
