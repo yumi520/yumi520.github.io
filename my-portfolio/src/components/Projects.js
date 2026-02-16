@@ -1,10 +1,7 @@
 import React from 'react';
 import '../stylesheet/Projects.css';
-import sunneyMockBG from '../assets/sunneyMockBG.png';
 import Button from '../components/shared/Button.js';
-import ChristmasDesignerScreen from '../assets/christmasDesignerScreen.png';
 import ChineseRadicalMacbook from '../assets/ChineseRadicalMacbook.png';
-import SocialSpotifyScreen from '../assets/SocialSpotifyBG.png';
 import DotsDecor from './shared/DotsDecor.jsx';
 
 function Projects() {

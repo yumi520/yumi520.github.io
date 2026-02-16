@@ -1,4 +1,5 @@
 import React from 'react';
+import persona from '../../assets/spotify_persona.png';
 
 // Placeholder images - same size as others
 const placeholderImage = "https://via.placeholder.com/1200x600/f5f5f5/999999?text=Image+Placeholder";
@@ -38,7 +39,7 @@ function SpotifyResearch() {
         <img src={placeholderImage} alt="competitive usability analysis for Pinterest website"></img>
 
         <h3>Persona</h3>
-        <img src={placeholderImage} alt="persona"></img>
+        <img src={persona} alt="persona"></img>
         <p>
         I created three refined problem statements for Emilia, a representative user:
         </p>

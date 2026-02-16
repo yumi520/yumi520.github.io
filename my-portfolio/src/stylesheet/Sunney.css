@@ -35,6 +35,39 @@ body {
         sans-serif;
 }
 
+/* Spotify case study - images same size, slightly smaller */
+.spotify-case-study {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.spotify-case-study__slide {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    margin-bottom: 0.5em;
+    border-radius: 20px;
+}
+
+.spotify-case-study__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: filter 0.3s ease;
+}
+
+.spotify-case-study__slide--hovered img {
+    filter: brightness(1.1);
+}
+
+.spotify-case-study__slide--dimmed img {
+    filter: brightness(0.45);
+}
+
 .sunneyTopSection img {
     width: 100%;
     max-width: 1200px;

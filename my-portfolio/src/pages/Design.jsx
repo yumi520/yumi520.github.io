@@ -4,7 +4,7 @@ import ProjectCard from '../components/shared/ProjectCard.js';
 
 // Import project images
 import SocialSpotifyScreen from '../assets/SocialSpotifyBG.png';
-// import CETRMockup from "../assets/CETRMockup.png";
+import CETRThumbnail from '../assets/cetr presentation/THUMBNAIL.png';
 
 /**
  * Design Projects Page
@@ -38,22 +38,21 @@ import SocialSpotifyScreen from '../assets/SocialSpotifyBG.png';
 function Design() {
     // Project data array - easy to manage and add new projects
     const projects = [
-        // {
-        //     image: CETRMockup,
-        //     imageAlt: "Community Teaching and Research at NEU Website Redesign",
-        //     title: "CETR Website Redesign",
-        //     subtitle: "UI/UX Design, Website Design",
-        //     description: "Redesign Work Experience",
-        //     linkTo:"https://www.figma.com/proto/oD8a0CpUpZQv0PVIrbYV8j/CETR-Website-Redesign?page-id=47%3A2&node-id=47-21&p=f&viewport=593%2C198%2C0.04&t=61fzUnozX0JpuJtN-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=47%3A21"
-        // },
+        {
+            image: CETRThumbnail,
+            imageAlt: "Community Teaching and Research at NEU Website Redesign",
+            title: "CETR Website Redesign",
+            subtitle: "UI/UX Design / Website Design",
+            description: "Redesign Work Experience",
+            linkTo: "/cetr"
+        },
         {
             image: SocialSpotifyScreen,
             imageAlt: "Social Spotify app",
             title: "Social Spotify",
             subtitle: "UI/UX Design / Mobile App",
             description: "Redesign Project from Interaction Design Principles",
-            linkTo: "https://drive.google.com/file/d/1ODVtdhgI_alf-l7pFK9hHrQF-8_oempx/view?usp=sharing"
-            // linkTo: "/spotify"
+            linkTo: "/spotify"
         },
         // Add more projects here by copying the object above and updating the values
         // Example:
