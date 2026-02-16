@@ -2,8 +2,8 @@
 import React from 'react';
 import '../stylesheet/About.css';
 import Portrait from '../assets/20250601200948_IMG_6829_Original.jpg';
+import MeSitting from '../assets/me_sitting.png';
 import Gallery from '../components/Gallery';
-import Button from '../components/shared/Button';
 
 function About() {
   return (
@@ -11,14 +11,8 @@ function About() {
         <section className="bio-section">
 
             <div className="image-button-section">
-
                 <img src={Portrait} alt="me!" className="portrait-me"></img>
-                <div className="resume-container">
-                    <Button href="https://drive.google.com/file/d/1INPAFc_mTzVUSNIMiW9CnnyNNVRwY0QN/view?usp=sharing" className="resume-button">
-                        Resume ↓
-                    </Button>
-                </div>
-
+                <img src={MeSitting} alt="me sitting" className="portrait-me"></img>
             </div>    
                 
             <div className="word-section"> 

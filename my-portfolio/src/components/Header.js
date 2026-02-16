@@ -9,10 +9,10 @@ function Header() {
         <nav>
           <ul className="pages">
             <li className="logo"> <Link to="/"> YUMIKO CHOW</Link></li>
-            <li className="works-link"> <Link to="/code"> DEV </Link></li>
-            <li className="works-link"> <Link to="/design"> UI/UX </Link></li>
-            <li className="works-link"> <Link to="/playground"> PLAY </Link></li>
+            <li className="works-link"> <Link to="/" state={{ scrollTo: 'featured-design' }}> PROJECTS </Link></li>
             <li className="about-me"> <Link to="/about"> ABOUT </Link></li>
+            <li className="works-link"> <a href="https://drive.google.com/file/d/1GEgbT9aLJLC_Pk0kkk6-Z1qvGmXyOEZL/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="header-resume"> RESUME </a></li>
+
           </ul>
         </nav>
       </header>

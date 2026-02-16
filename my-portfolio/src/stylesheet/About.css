@@ -89,9 +89,7 @@
 }
 
 .experience {
-    font-weight: 500;
-    background-color: #f8e2d1;
-    padding: 0.1em 0.2em;
+    font-weight: bold;
     display: inline-block;
     margin-bottom: 0.5em;
 }

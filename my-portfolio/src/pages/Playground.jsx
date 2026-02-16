@@ -9,8 +9,6 @@ import f3 from "../assets/f3.png";
 import f4 from "../assets/f4.png";
 import f5 from "../assets/f5.png";
 import ImageCarousel from '../components/shared/ImageCarousel';
-import ELIUD from "../assets/eliud kipchoge poster final.png";
-import KAT from "../assets/kat_gatorade poster final.png";
 
 // Import images - add your CIC report image to assets folder and update the import path
 // import CICReport from '../assets/cic-five-year-report.png';

@@ -59,6 +59,16 @@ nav {
     opacity: 0.6;
 }
 
+.header-resume {
+    padding: 0.5em 1.25em;
+    border: 1px solid #b0b0b0;
+    border-radius: 2em;
+}
+
+.header-resume:hover {
+    opacity: 0.6;
+}
+
 @media screen and (max-width: 800px) {
     header {
         padding: 1.5em 2em;

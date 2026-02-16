@@ -1,7 +1,5 @@
 import React from 'react';
 
-// Placeholder images - same size as others
-const placeholderImage = "https://via.placeholder.com/1200x600/f5f5f5/999999?text=Image+Placeholder";
 
 function GroupifyIdeation() {
     return(

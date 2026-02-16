@@ -15,7 +15,7 @@ function CETRTopSection() {
         },
         {
             title: 'TIMELINE',
-            items: ['Website Redesign']
+            items: ['3 Months']
         },
         {
             title: 'TEAM',
