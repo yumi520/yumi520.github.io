@@ -17,6 +17,17 @@ import f2 from '../assets/f2.png';
 import f3 from '../assets/f3.png';
 import f4 from '../assets/f4.png';
 import f5 from '../assets/f5.png';
+import s1 from '../assets/SUSTINERE/a1.png';
+import s2 from '../assets/SUSTINERE/a2.png';
+import s3 from '../assets/SUSTINERE/a3.png';
+import s4 from '../assets/SUSTINERE/a4.png';
+import s5 from '../assets/SUSTINERE/a5.png';
+import s6 from '../assets/SUSTINERE/a6.png';
+import s7 from '../assets/SUSTINERE/a7.png';
+import s8 from '../assets/SUSTINERE/a8.png';
+import s9 from '../assets/SUSTINERE/A9.png';
+import s10 from '../assets/SUSTINERE/a10.png';
+import s11 from '../assets/SUSTINERE/a11.png';
 import ImageCarousel from './shared/ImageCarousel';
 
 const FILTERS = [
@@ -89,6 +100,28 @@ const ALL_PROJECTS = [
     title: 'Gatorade Pods',
     subtitle: 'Branding and packaging concept for Gatorade Pods hydration product.',
     designStack: ['Figma', 'Illustrator', 'Photoshop'],
+    techStack: [],
+    hasCarousel: true,
+  },
+  {
+    categories: ['branding'],
+    images: [
+      { src: s1, alt: 'Sustinere - Image 1' },
+      { src: s2, alt: 'Sustinere - Image 2' },
+      { src: s3, alt: 'Sustinere - Image 3' },
+      { src: s4, alt: 'Sustinere - Image 4' },
+      { src: s5, alt: 'Sustinere - Image 5' },
+      { src: s6, alt: 'Sustinere - Image 6' },
+      { src: s7, alt: 'Sustinere - Image 7' },
+      { src: s8, alt: 'Sustinere - Image 8' },
+      { src: s9, alt: 'Sustinere - Image 9' },
+      { src: s10, alt: 'Sustinere - Image 10' },
+      { src: s11, alt: 'Sustinere - Image 11' },
+    ],
+    imageAlt: 'Sustinere branding',
+    title: 'Sustinere',
+    subtitle: 'Branding and identity exploration for Sustinere.',
+    designStack: ['Illustrator', 'Photoshop'],
     techStack: [],
     hasCarousel: true,
   },
