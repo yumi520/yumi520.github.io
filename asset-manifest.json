@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.a6372a76.css",
-    "main.js": "/static/js/main.ea1df478.js",
+    "main.js": "/static/js/main.20b722e8.js",
     "static/js/453.41811d64.chunk.js": "/static/js/453.41811d64.chunk.js",
+    "static/media/A9.png": "/static/media/A9.e71a8267f0c119216a15.png",
     "static/media/Screenshot 2023-10-30 at 6.14.57 PM.png": "/static/media/Screenshot 2023-10-30 at 6.14.57 PM.a12cb4d0b3b83c608dd7.png",
     "static/media/Screenshot 2023-10-30 at 6.15.05 PM.png": "/static/media/Screenshot 2023-10-30 at 6.15.05 PM.5239aa4de715f22db440.png",
     "static/media/Screenshot 2023-10-30 at 6.15.24 PM.png": "/static/media/Screenshot 2023-10-30 at 6.15.24 PM.b96067f0c47ef3b6aea9.png",
@@ -10,17 +11,26 @@
     "static/media/me_sitting.png": "/static/media/me_sitting.c56c0aff21939e8c0282.png",
     "static/media/Screenshot 2023-10-30 at 6.30.00 PM.png": "/static/media/Screenshot 2023-10-30 at 6.30.00 PM.a1f97be654e8dc09eb47.png",
     "static/media/Screenshot 2023-10-30 at 6.29.43 PM.png": "/static/media/Screenshot 2023-10-30 at 6.29.43 PM.f08832d816d95fd13f50.png",
+    "static/media/a8.png": "/static/media/a8.3d8cb97d007972697776.png",
     "static/media/IMG_8175.jpg": "/static/media/IMG_8175.4a4b561eb8b33e78dc3e.jpg",
+    "static/media/a6.png": "/static/media/a6.f8180bbc223692cb208a.png",
     "static/media/f2.png": "/static/media/f2.a64401ac8624fc390096.png",
+    "static/media/a5.png": "/static/media/a5.3a15d9d53b60efa96a63.png",
     "static/media/Screenshot 2024-01-04 at 5.17.42 PM.png": "/static/media/Screenshot 2024-01-04 at 5.17.42 PM.aa93f35cacb0fe5acd21.png",
     "static/media/f3.png": "/static/media/f3.5b86f60f54c354832ea6.png",
+    "static/media/a11.png": "/static/media/a11.46640ab5381291a4babf.png",
     "static/media/7.png": "/static/media/7.c463da51094d4470ce59.png",
     "static/media/f1.png": "/static/media/f1.844cbb0354b1498c18ed.png",
+    "static/media/a10.png": "/static/media/a10.ce032d36db2c5a2f1e11.png",
     "static/media/f4.png": "/static/media/f4.99dd57176bcc03181890.png",
     "static/media/Screenshot 2024-01-04 at 4.48.08 PM.png": "/static/media/Screenshot 2024-01-04 at 4.48.08 PM.e68c35817879265f2ac8.png",
+    "static/media/a2.png": "/static/media/a2.0809efb0956300d7a124.png",
     "static/media/6.png": "/static/media/6.5830c81a630d34944d20.png",
     "static/media/20250601200948_IMG_6829_Original.jpg": "/static/media/20250601200948_IMG_6829_Original.6190cae29ae3aba7f73a.jpg",
+    "static/media/a4.png": "/static/media/a4.f9de0f7bc383bd39df54.png",
+    "static/media/a7.png": "/static/media/a7.1480d2900d50c10dd4bd.png",
     "static/media/8.png": "/static/media/8.d0b16dea53710ab49940.png",
+    "static/media/a1.png": "/static/media/a1.74747482fedbdc569bec.png",
     "static/media/THUMBNAIL.png": "/static/media/THUMBNAIL.53e7978b8425097c52f3.png",
     "static/media/sunneyMockBG.png": "/static/media/sunneyMockBG.fd7d0e7d57b71c3de5e5.png",
     "static/media/portfolio-image-1 3.png": "/static/media/portfolio-image-1 3.daf5ddce5d01c4a33d37.png",
@@ -40,6 +50,7 @@
     "static/media/3.png": "/static/media/3.37fa9f058cd38a635f47.png",
     "static/media/CiCData.png": "/static/media/CiCData.615859cf593359f0a042.png",
     "static/media/future.png": "/static/media/future.cc40787d9e89e7d56ecf.png",
+    "static/media/a3.png": "/static/media/a3.46169e66b2838e9dcb90.png",
     "static/media/11.png": "/static/media/11.5004bc8cffa1c781f4a6.png",
     "static/media/BCAN.png": "/static/media/BCAN.74d33fd885209b86699b.png",
     "static/media/1.png": "/static/media/1.544260a2e57d6f4a893f.png",
@@ -47,11 +58,11 @@
     "static/media/12.png": "/static/media/12.476c9b4515d559c3cba3.png",
     "index.html": "/index.html",
     "main.a6372a76.css.map": "/static/css/main.a6372a76.css.map",
-    "main.ea1df478.js.map": "/static/js/main.ea1df478.js.map",
+    "main.20b722e8.js.map": "/static/js/main.20b722e8.js.map",
     "453.41811d64.chunk.js.map": "/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6372a76.css",
-    "static/js/main.ea1df478.js"
+    "static/js/main.20b722e8.js"
   ]
 }
